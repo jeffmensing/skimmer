@@ -1,0 +1,149 @@
+.containerRefAndFeed {
+  min-width: 500px;
+  max-width: 500px;
+  margin: 10px;
+  height: 250px;
+  border: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.largeCard {
+  min-width: 500px;
+  margin: 10px;
+  overflow: auto;
+  height: 250px;
+  border: 1px thin black;
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.halfCard {
+  max-width: 500px;
+  margin-top: 3px;
+  height: 122px;
+  border: 1px thin black;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.chart {
+  padding-top: 40px;
+  padding-left: 40px;
+  height: 100px;
+  width: 100px;
+}
+
+.rowA {
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rowB {
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.btnInv {
+  display: inline-block;
+  background: #61d019;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.btnPay {
+  display: inline-block;
+  background: #9c27b0;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.faIcon {
+  padding-left: 20px;
+}
+
+.containerText {
+  padding-top: 40px;
+  padding-left: 50px;
+  max-width: 400px;
+  text-align: center;
+  color: 2f4050;
+  font-size: small;
+}
+
+.containerText p {
+  padding-bottom: 25px;
+}
+
+.chartRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sideBarStyle {
+  position: fixed;
+  height: 100%;
+  width: 170px;
+  background: #2f4050;
+  padding: 10px;
+  color: #fff;
+}
+
+.dashBdTitle {
+  width: 170px;
+  padding-right: 15px;
+}
+
+.sideBarStyle p {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=Style.css.map */

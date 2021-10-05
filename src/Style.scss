@@ -1,0 +1,146 @@
+$lightGreen: #61d019;
+$magenta: #9c27b0;
+$blue: #42a5f5;
+
+@mixin largeCardStyle {
+  min-width: 500px;
+  margin: 10px;
+  overflow: auto;
+  height: 250px;
+  border: 1px thin black;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+@mixin halfCardStyle {
+  max-width: 500px;
+  margin-top: 3px;
+  height: 122px;
+  border: 1px thin black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.containerRefAndFeed {
+  min-width: 500px;
+  max-width: 500px;
+  margin: 10px;
+  height: 250px;
+  border: hidden;
+}
+
+@mixin cardRows {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin chartRows {
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.largeCard {
+  @include largeCardStyle();
+}
+
+.halfCard {
+  @include halfCardStyle();
+}
+
+.chart {
+  padding-top: 40px;
+  padding-left: 40px;
+  height: 100px;
+  width: 100px;
+}
+
+.rowA {
+  @include cardRows();
+}
+
+.rowB {
+  @include cardRows();
+}
+
+.btnInv {
+  display: inline-block;
+  background: #61d019;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.btnPay {
+  display: inline-block;
+  background: #9c27b0;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.faIcon {
+  padding-left: 20px;
+}
+
+.containerText {
+  padding-top: 40px;
+  padding-left: 50px;
+  max-width: 400px;
+  text-align: center;
+  color: 2f4050;
+  font-size: small;
+}
+
+.containerText p {
+  padding-bottom: 25px;
+}
+
+.chartRow {
+  @include chartRows();
+}
+
+.sideBarStyle {
+  position: fixed;
+  height: 100%;
+  width: 170px;
+  background: #2f4050;
+  padding: 10px;
+  color: #fff;
+}
+
+.dashBdTitle {
+  width: 170px;
+  padding-right: 15px;
+}
+
+.sideBarStyle p {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
